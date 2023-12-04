@@ -1,0 +1,25 @@
+h1 {
+    margin: 96px 120px;
+    padding-top: 96px ;
+}
+ h2 {
+    padding-top: 24px;
+ }
+ p {
+    padding-top: 64px;
+ }
+ .text {
+    padding-top: 24px;
+ }
+ .container {
+    padding-top: 40px;
+ }
+ .img {
+width: 277px;
+height: 247px;
+ }
+ .video {
+ width: 624px;
+height: 334px;
+padding-top: 100px;
+ }
