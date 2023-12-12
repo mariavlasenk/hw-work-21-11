@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-color: aquamarine;
+    
+}
+header{
+    position:relative;
+    background-color: blue;
+    padding: 20px;
+}
+p {
+    width: 200px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+.text {
+    position: inherit;animation: none;
+}
+.rel:hover {
+    background-color: blueviolet;
+}
+.rel :hover.abs {
+    top: 200px;
+}
+.fixed {
+    padding:  20px 20px 20px 20px;
+    width: 174px;
+height: 66px;
+color: #FFF;
+background: #D40D1F;
+
+}
+h1::before {
+    content: "";
+    width: 0px;
+height: 28px;
+stroke-width: 3px;
+stroke: #e90606;
+display: inline-block;
+background-color: aquamarine;
+}
