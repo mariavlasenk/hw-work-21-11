@@ -3,7 +3,60 @@
  }
  body {
     margin: 0;
+    background-image: url('../img/Rectangle\ 1.png');
+    width: 1728px;
+    /* height: 1117px; */
  }
+ .title {
+   color: #C8C8C8;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+ }
+ 
+ .text {
+color: #FFF;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+ }
+ .seasons {
+color: #FFF;
+font-size: 30px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+ }
+ .accesskey{
+   color: #A7A6A6;
+font-family: Inter;
+font-size: 29px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+ }
+ .group {
+   color: #A7A6A6;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 141.523%; 
+ }
+ .button{
+color: #FFF;
+font-family: Inter;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: 141.523%; 
+border-radius: 10px;
+background: #D40D1F;
+}
+
+
+ 
  .fixed{
   padding: 20px;
   height: 100px;
