@@ -2,25 +2,37 @@
     box-sizing: border-box;
  }
  body {
-    margin: 0;
-    background-image: url('../img/Rectangle\ 1.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+   max-width: 170%;
+   margin: 0;
+   background-image: url('../img/Rectangle\ 1.png');
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
  }
- 
+  header {
+   padding: 50px 50px;
+  }
+  section {
+   margin: 0 auto;
+  }
  .logo {
     margin:  42px 118px 80px;
     width: 156px;
  }
+ .solid {
+   display: flex;
+   margin: 0 auto;
+   margin: 15px 152px 21px 1232px;
+ }
  .title {
+   display: flex;
    color: #C8C8C8;
    font-size: 24px;
    font-style: normal;
    font-weight: 500;
    line-height: normal;
-   /* width: 213px; */
-   margin: 77px 1237px 113px 200px;
+   
+   
  }
  .fa-solid {
    color: #A7A6A6;
@@ -97,7 +109,10 @@ margin: 8px 17px 17px 80px;
    width: 271px;
    background-image:url(../img/Rectangle\ 1.png);
 }
-
+.flex {
+   display: flex;
+   
+}
 .picteres {
    margin: 32px 40px 49px 80px;
 }
