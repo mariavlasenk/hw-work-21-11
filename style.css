@@ -1,46 +1,57 @@
 * {
-    /* box-sizing: border-box; */
     box-sizing: border-box;
 }
 body {
-    margin: 0;
+    margin: 0 auto;
+    background: #95CFD5;
 }
-h1 {
-    line-height: 96px;
-    font-size: 56px;
-    margin:120px 96px;
+header {
+    background: #FFF;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+    max-width: 140%;
 }
-h2{
-    line-height: 64px;
-    font-size: 56px;
-    margin: 120px 96px;
+
+ section {
+    display: flex;
+    justify-content: space-around;
+
+ }
+div {
+    margin: 26px 0px 24px 69px;
 }
- p {
-    font-size: 32px;
-    /* line-height: 40px; */
-    margin: 120px 96px;
- }
- .text {
-    line-height: 64px;
-    font-size: 56px;
-    margin: 120px 96px;
- }
- .container {
-    line-height: 42px;
-    font-size: 32px;
-    margin: 96px 120px;
- }
- .title{
-    line-height: 64px;
-    font-size: 56px;
-    margin: 120px 96px;
- }
- .img {
-width: 277px;
-height: 247px;
- }
- video {
- width: 624px;
-height: 334px;
-padding-top: 110px;
- }
+.life {
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 2.8px;
+    margin: 25px 95px 24px 0px;
+}
+.aria {
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 2.8px;
+     margin:  25px 95px 24px 0px;
+}
+.oft {
+   
+    color: #000;
+    font-size:  14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 2.8px;
+    margin: 25px 95px 24px 0px;
+}
+.faction{
+    display: flex;
+    justify-content: flex-end;
+}
+.blue {
+    width: 501.535px;
+    /* height: 120.091px; *//* transform: rotate(-90deg); */
+}
